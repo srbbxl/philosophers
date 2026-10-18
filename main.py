@@ -6,9 +6,11 @@ names = ["Dwalin", "Balin", "Thorin", "Fili", "Kili"]
 
 if __name__ == "__main__":
     philosophers = []
+    variant = int(input("choose a variant: (1 - correct, 2 - deadlock, 3 - starvation): "))
+
     # creating instances and running them one by one
     for i in range(5):
-        f = Philosopher(i, names[i])
+        f = Philosopher(i, names[i], variant)
         philosophers.append(f)
         f.start() # starting run() method
 

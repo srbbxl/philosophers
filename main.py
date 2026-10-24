@@ -3,6 +3,9 @@ from philosophers import Philosopher, states, eat_count, sticks
 
 names = ["Dwalin", "Balin", "Thorin", "Fili", "Kili"]
 
+# !!! VISUAL PART OF THIS PROJECT WAS MADE WITH AI HELP !!!
+
+
 # ansi color codes for terminal output
 GREEN = "\033[92m"   # eating
 RED = "\033[91m"     # waiting
